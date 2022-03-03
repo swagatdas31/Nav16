@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bottom Collapse Nav</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+</head>
+<body>
+    <div class="desc">
+        <h1>Menu Navigation Bottom Collapsing</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius incidunt iure nulla unde cupiditate necessitatibus quae a inventore nisi ad voluptatum ut repudiandae libero delectus consequuntur, adipisci, sed reprehenderit deserunt? Aspernatur et impedit omnis repudiandae placeat debitis aperiam rem delectus.</p>
+    </div>
+    
+    <a href="#" class="btnm">
+        <span></span>
+        <span></span>
+        <span></span>
+    </a>
+
+    <div class="menu">
+        <a href="" class="ion-document"></a>
+        <a href="" class="ion-trash-a"></a>
+        <a href="" class="l1 ion-folder"></a>
+        <a href="" class="l2 ion-calendar"></a>
+        <a href="" class="ion-locked"></a>
+        <a href="" class="ion-chatbox-working"></a>
+    </div>
+
+    <script>
+        $(".btnm").on("click",function(){
+            $(".btnm").toggleClass("btnn");
+            $(".menu").toggleClass("show");
+        });
+    </script>
+</body>
+</html>
